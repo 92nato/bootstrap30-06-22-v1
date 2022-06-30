@@ -6,3 +6,8 @@ for now... nothing here!!!
 .black{
     background-color: rgb(163, 159, 159);
 }
+
+#navigation{
+    text-align: center;
+    padding-left: 30%;
+}
