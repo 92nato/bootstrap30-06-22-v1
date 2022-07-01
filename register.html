@@ -12,6 +12,77 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </head>
 <body>
-    <H2> <a href="/index.html"> Nothing Here... Back!</a> </H2>
+    <!-- NAVBAR IS HERE IMPORTED FROM INDEX.HTML-->
+    <nav class="navbar navbar-expand-lg bg-secondary shadow p-3 mb-5 rounded"  >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="">
+          <img src="/img/favicon.ico" style="background-image: url(/img/favicon.ico); height: 55px; width: 55px;" class="favicon">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navigation">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="/index.html">Inicio</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link text-white " href="#">Iniciar Sesion</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Panel de Usuario
+                </a>
+                <ul class="dropdown-menu bg-secondary text-decoration-none" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item text-white" href="#">Perfil</a></li>
+                  <li><a class="dropdown-item text-white" href="#">Configuracion</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item text-white" href="#">Cerrar Sesion</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-warning" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- END OF NAVBAR -->
+    <H2>Bienvenido a Pagina de <a href="/index.html" style="text-decoration: none;">Video Game</a> </H2>
+    <br>
+    <!-- FORM IS HERE -->
+    
+    <div class="container">
+        <div class="adjustForm">
+    <form class="col g-3" method="post">
+        
+        <div class="col-auto">
+            <label for="text" class="visually-hidden">User Name</label>
+            <input type="text" class="form-control" id="inputUserName" value="User Name">
+        </div>
+        <br>
+        <div class="col-auto">
+            <label for="staticEmail2" class="visually-hidden is-valid">Email</label>
+            <input type="text" class="form-control" id="staticEmail2" value="email@example.com">
+        </div>
+        <br>
+        <div class="col-auto">
+          <label for="inputPassword2" class="visually-hidden">Password</label>
+          <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+        </div>
+        <br>
+        <div class="col-auto">
+          <button type="submit" class="btn btn-success mb-3">Register</button>
+          
+          <button type="reset" class="btn btn-danger mb-3">Reset</button>
+        </div>
+      </form>
+    </div>
+    </div>
+    
+
 </body>
+
 </html>
